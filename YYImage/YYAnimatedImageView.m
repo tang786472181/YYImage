@@ -536,7 +536,7 @@ typedef NS_ENUM(NSUInteger, YYAnimatedImageType) {
     
     if (currentFrame) {
         layer.contentsScale = currentFrame.scale;
-        layer.contents = (__bridge id)_curFrame.CGImage;
+        layer.contents = (__bridge id)currentFrame.CGImage;
     }
 }
 
